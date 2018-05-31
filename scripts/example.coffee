@@ -7,12 +7,15 @@
 #   Uncomment the ones you want to try and experiment with.
 #
 #   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
-
-module.exports = (robot) ->
-
-  # robot.hear /badger/i, (res) ->
-  #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
-  #
+#const ch = require('./run');
+#module.exports = (robot) ->
+  #robot.respond /PINGS$/i, (msg) ->
+  #  msg.send "PONG"
+ #  robot.hear /badger/i, (res) ->
+     
+  #   ch.check_hb();
+   #  res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
+  
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
   #   if doorType is "pod bay"
