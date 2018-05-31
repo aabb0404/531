@@ -20,6 +20,7 @@
     "hubot-slack": "^4.4.0",
     "mysql": "^2.15.0",
     "nodemailer": "^4.6.5",
+    "update-notifier": "^2.5.0",
     "winston": "^2.4.2"
   },
   "engines": {
